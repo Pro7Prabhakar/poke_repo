@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(46, 49, 53);
+    background-image: url(./giphy.gif);
+    background-size: 100%;
+}
+#head{
+    background-color: rgba(40,45,45,.5);
+}
+h1{
+    text-align: center;
+    color: white;
+    box-shadow: 2px 2px 2px;
+    border-color: aquamarine;
+    border-block-color: rgb(79, 188, 207);
+}
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 5px; */
+    margin-bottom: 5vh;
+}
+#header input{
+    border-radius: 6px;
+    height: 20px;
+    font-size: 15px;
+    background-color: aliceblue;
+}
+#header button{
+    border-radius: 5px;
+    height: 25px;
+    background-color: rgba(20, 15, 15,0.3);
+    color: white;
+}
+#list{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
