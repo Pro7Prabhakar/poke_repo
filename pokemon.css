@@ -1,6 +1,6 @@
 body{
     background-color: rgb(46, 49, 53);
-    background-image: url(./giphy.gif);
+    background-image: url(./media/giphy.gif);
     background-size: 100%;
 }
 #head{
@@ -37,4 +37,33 @@ h1{
     align-items: center;
     justify-content: center;
     margin-bottom: 15px;
+}
+.pokeValue{
+    transition: 1s ease-out;
+    background-color: rgba(240, 248, 255,.6);
+    border: 2px solid;
+    margin: 2vh;
+    padding: 25px;
+    border-radius: 5px;
+    transition: 1s ease-out;
+    box-shadow: 2px 1px 1px;
+    border-color: rgba(221, 167, 231, 0.2);
+    
+}
+.pokeValue img{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2px;
+    padding: 10px;
+    margin-top: 1vh;
+    box-shadow: 2px 0px 8px;
+    border-color: rgb(142, 101, 180);
+    background-color: white;
+    transition: 1s ease;
+}
+.pokeValue img:hover{
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+    transition: 1s ease;
 }
